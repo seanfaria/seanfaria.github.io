@@ -48,9 +48,10 @@ linkedin_username: seanfaria
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  "Hi, my name's Sean and I'm a Devops Engineer. Talented engineering professional with a passion for developing innovative solutions to complex engineering problems. Specializes in design, development, and implementation of cutting-edge technology. Adept at analyzing and interpreting large amounts of data to create effective solutions. Highly motivated and organized with strong communication and problem-solving skills."
-    I am most skilled in: <mark>AWS CloudFormation</mark> <mark>New relic</mark> <mark>Docker</mark> <mark>AWS EKS</mark> <mark>AWS EC2</mark> <mark>Devcontainers</mark> <mark>Argo-cd</mark> <mark>Terraform</mark> <mark>Terragrunt</mark> <mark>Ruby</mark> <mark>Python</mark> <mark>Google Workspace</mark> <mark>Kubernetes</mark> <mark>Gitops</mark> <mark>Lambda</mark> <mark>Github Actions</mark> <mark>Circleci</mark> 
-    <mark>AWS Systems Manager</mark> <mark>AWS RDS</mark> <mark>AWS S3</mark> <mark>AWS Route 53</mark> <mark>AWS IAM</mark> <mark>AWS Cloudwatch</mark> <mark>AWS Cloudfront</mark> <mark>AWS WAF</mark> <mark>AWS VPC</mark> <mark>AWS VPN</mark> <mark>AWS SSM</mark> <mark>AWS SNS</mark> <mark>AWS SQS</mark> <mark>AWS SES</mark> <mark>AWS ECR</mark> <mark>AWS ECS</mark> <mark>AWS EBS</mark> <mark>AWS EFS</mark> <mark>AWS ECR</mar
+  Hi, my name's Sean and I'm a Devops Engineer. Talented engineering professional with a passion for developing innovative solutions to complex engineering problems. Specializes in design, development, and implementation of cutting-edge technology. Adept at analyzing and interpreting large amounts of data to create effective solutions. Highly motivated and organized with strong communication and problem-solving skills.
+    
+  I am most skilled in: <mark>AWS CloudFormation</mark> <mark>New relic</mark> <mark>Docker</mark> <mark>AWS EKS</mark> <mark>AWS EC2</mark> <mark>Devcontainers</mark> <mark>Argo-cd</mark> <mark>Terraform</mark> <mark>Terragrunt</mark> <mark>Ruby</mark> <mark>Python</mark> <mark>Google Workspace</mark> <mark>Kubernetes</mark> <mark>Gitops</mark> <mark>Lambda</mark> <mark>Github Actions</mark> <mark>Circleci</mark> 
+  <mark>AWS Systems Manager</mark> <mark>AWS RDS</mark> <mark>AWS S3</mark> <mark>AWS Route 53</mark> <mark>AWS IAM</mark> <mark>AWS Cloudwatch</mark> <mark>AWS Cloudfront</mark> <mark>AWS WAF</mark> <mark>AWS VPC</mark> <mark>AWS VPN</mark> <mark>AWS SSM</mark> <mark>AWS SNS</mark> <mark>AWS SQS</mark> <mark>AWS SES</mark> <mark>AWS ECR</mark> <mark>AWS ECS</mark> <mark>AWS EBS</mark> <mark>AWS EFS</mark> <mark>AWS ECR</mar
 content:
 # - title: Projects # Title for the section
 #   layout: list # Type of content section (list/text)
@@ -103,6 +104,7 @@ content:
       - Implemented and maintained an EKS and Route 53 DNS multi-region setup, including automatic DNS for both active-active and active-passive configurations, improving system reliability and user experience across regions.
       - Optimized the CI/CD pipeline by implementing containerization (Docker) with multistage builds, leading to a 30% reduction in build time and a 40% decrease in image size, significantly improving application scalability and deployment efficiency in production environments.
       - Implemented and maintained a multi-region setup for Amazon S3, ensuring robust data storage and high availability across different geographical areas.
+      - Facilitated the seamless migration from Chef to Kubernetes, contributing to the enhancement of infrastructure efficiency and scalability in a dynamic IT environment.
 
   - layout: left
     title: Parkstreet Imports
