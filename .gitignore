@@ -1,2 +1,8 @@
 .DS_Store
 *.log
+*.gem
+.bundle
+.sass-cache
+_site
+Gemfile.lock
+*.code-workspace
