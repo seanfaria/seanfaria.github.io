@@ -16,7 +16,7 @@ darkmode: false
 
 # Social links
 #twitter_username: facespics
-github_username:  seanfaria
+github_username: seanfaria
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -25,15 +25,15 @@ github_username:  seanfaria
 linkedin_username: seanfaria
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -47,94 +47,79 @@ additional_links:
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Sean and I'm a Devops Engineer. Talented engineering professional with a passion for developing innovative solutions to complex engineering problems. 
-  Specializes in design, development, and implementation of cutting-edge technology. Adept at analyzing and interpreting large amounts of data to create effective solutions. 
-  Highly motivated and organized with strong communication and problem-solving skills.
-
-  I am most skilled in: <mark>AWS</mark> <mark>Finding a way </mark> and <mark>Eating Food</mark>
-
+about_content: "Hi, my name's Sean and I'm a Devops Engineer. Talented engineering professional with a passion for developing innovative solutions to complex engineering problems. \nSpecializes in design, development, and implementation of cutting-edge technology. Adept at analyzing and interpreting large amounts of data to create effective solutions. \nHighly motivated and organized with strong communication and problem-solving skills.\n#magic___^_^___line\nI am most skilled in: <mark>AWS CloudFormation</mark> <mark>New relic</mark> <mark>Docker</mark> <mark>AWS EKS</mark> <mark>AWS EC2</mark> <mark>Devcontainers</mark> \n<mark>Argo-cd</mark> <mark>Terraform</mark> <mark>Terragrunt</mark> <mark>Ruby</mark> <mark>Python</mark> <mark>Google Workspace</mark> <mark>Kubernetes</mark> <mark>Gitops</mark> \n<mark>Lambda</mark> <mark>Github Actions</mark> <mark>Circleci</mark> <mark>AWS Systems Manager</mark> <mark>AWS RDS</mark>\n#magic___^_^___line\n#magic___^_^___line\n#magic___^_^___line\n" # this will include new lines to allow paragraphs
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+# - title: Projects # Title for the section
+#   layout: list # Type of content section (list/text)
+#   content:
+#     - layout: top-middle
+#       title: Super awesome project
+#       link: github.com/sproogen
+#       # link_text: Project Website
+#       additional_links:
+#         - title:  sproogen/modern-resume-theme
+#           icon: fab fa-github
+#           url: github.com/sproogen/modern-resume-theme
+#         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#         #   icon: fab fa-github
+#         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#       quote: >
+#         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#       description: | # this will include new lines to allow paragraphs
+#         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Customink LLC
-        link: customink.com
-        link_text: customink.com
-        sub_title: Webops Engineer / Devops Engineer
-        caption: May 2022 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-              - Led the design and implementation of a network infrastructure for EKS clusters, including IPv4 and peering connections with legacy systems (AD, Cisco AnyConnect VPN, legacy EC2 VPC).
-              - Established secure connections from EKS to Web Application Firewall (WAF) using Kubernetes yaml annotations.
-              - Orchestrated Chaos Days to test and improve system resilience, applying chaos engineering principles to identify weaknesses and enhance fault tolerance.
-              - Developed and implemented RBAC (Role-Based Access Control) scripts for EKS clusters using Helm, enhancing security and operational efficiency. This initiative streamlined permission management, ensuring secure and compliant access controls within the Kubernetes environment.
-              - Expertly managed network security within AWS environments, implementing and enforcing protocols such as TCP/IP, DNS, and DHCP. Led initiatives to enhance network infrastructure security through the strategic deployment of firewalls, VPNs, and load balancers, ensuring robust and secure data transmission across systems.
-              - Orchestrated Chaos Days to test and improve system resilience, applying chaos engineering principles to identify weaknesses and enhance fault tolerance.
-              - Developed and implemented RBAC (Role-Based Access Control) scripts for EKS clusters using Helm, enhancing security and operational efficiency. This initiative streamlined permission management, ensuring secure and compliant access controls within the Kubernetes environment.
-              - Expertly managed network security within AWS environments, implementing and enforcing protocols such as TCP/IP, DNS, and DHCP. Led initiatives to enhance network infrastructure security through the strategic deployment of firewalls, VPNs, and load balancers, ensuring robust and secure data transmission across systems.
-              - Manage and scale Kubernetes and Helm deployments, and implement ArgoCD and Argo-Rollouts for streamlined Kubernetes management and blue/green deployments.
-              - Developed and maintained infrastructure using Terraform and Terragrunt, ensuring efficient and reliable cloud setups and streamlining deployment processes.
-              - Developed custom Ruby scripts to efficiently scrape SNMP data from on-site appliances, and seamlessly integrated the extracted data with New Relic for enhanced monitoring and analytics, significantly improving data-driven decision-making and operational visibility.
-              - Design, implement, and maintain CI/CD pipelines using Circleci, GitHub Actions and CloudFormation.
-              - Manage AWS infrastructure, including Lambda, EC2, EKS clusters and RDS services.
-              - Uphold PCI compliance standards and implement New Relic for comprehensive monitoring and performance insights.
-              - Collaborate with teams to optimize development processes and promote a DevOps culture.
-              - Successfully integrated Git-Ops workflows utilizing tools such as Argo CD, enhancing deployment automation and ensuring consistent, reliable synchronization of application development and infrastructure management.
-              - Developed custom Helm addons for Kubernetes, enhancing container orchestration and deployment.
-              - Implemented and maintained an EKS and Route 53 DNS multi-region setup, including automatic DNS for both active-active and active-passive configurations, improving system reliability and user experience across regions.
-              - Optimized the CI/CD pipeline by implementing containerization (Docker) with multistage builds, leading to a 30% reduction in build time and a 40% decrease in image size, significantly improving application scalability and deployment efficiency in production environments.
-              - Implemented and maintained a multi-region setup for Amazon S3, ensuring robust data storage and high availability across different geographical areas.
+- title: Experience # Title for the section
+  layout: list # Type of content section (list/text)
+  content:
+  - layout: left
+    title: Customink LLC
+    link: customink.com
+    link_text: customink.com
+    sub_title: Webops Engineer / Devops Engineer
+    caption: May 2022 - Present
+    quote: >
+      Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+    description: | # this will include new lines to allow paragraphs
+      - Led the design and implementation of a network infrastructure for EKS clusters, including IPv4 and peering connections with legacy systems (AD, Cisco AnyConnect VPN, legacy EC2 VPC).
+      - Established secure connections from EKS to Web Application Firewall (WAF) using Kubernetes yaml annotations.
+      - Orchestrated Chaos Days to test and improve system resilience, applying chaos engineering principles to identify weaknesses and enhance fault tolerance.
+      - Developed and implemented RBAC (Role-Based Access Control) scripts for EKS clusters using Helm, enhancing security and operational efficiency. This initiative streamlined permission management, ensuring secure and compliant access controls within the Kubernetes environment.
+      - Expertly managed network security within AWS environments, implementing and enforcing protocols such as TCP/IP, DNS, and DHCP. Led initiatives to enhance network infrastructure security through the strategic deployment of firewalls, VPNs, and load balancers, ensuring robust and secure data transmission across systems.
+      - Orchestrated Chaos Days to test and improve system resilience, applying chaos engineering principles to identify weaknesses and enhance fault tolerance.
+      - Developed and implemented RBAC (Role-Based Access Control) scripts for EKS clusters using Helm, enhancing security and operational efficiency. This initiative streamlined permission management, ensuring secure and compliant access controls within the Kubernetes environment.
+      - Expertly managed network security within AWS environments, implementing and enforcing protocols such as TCP/IP, DNS, and DHCP. Led initiatives to enhance network infrastructure security through the strategic deployment of firewalls, VPNs, and load balancers, ensuring robust and secure data transmission across systems.
+      - Manage and scale Kubernetes and Helm deployments, and implement ArgoCD and Argo-Rollouts for streamlined Kubernetes management and blue/green deployments.
+      - Developed and maintained infrastructure using Terraform and Terragrunt, ensuring efficient and reliable cloud setups and streamlining deployment processes.
+      - Developed custom Ruby scripts to efficiently scrape SNMP data from on-site appliances, and seamlessly integrated the extracted data with New Relic for enhanced monitoring and analytics, significantly improving data-driven decision-making and operational visibility.
+      - Design, implement, and maintain CI/CD pipelines using Circleci, GitHub Actions and CloudFormation.
+      - Manage AWS infrastructure, including Lambda, EC2, EKS clusters and RDS services.
+      - Uphold PCI compliance standards and implement New Relic for comprehensive monitoring and performance insights.
+      - Collaborate with teams to optimize development processes and promote a DevOps culture.
+      - Successfully integrated Git-Ops workflows utilizing tools such as Argo CD, enhancing deployment automation and ensuring consistent, reliable synchronization of application development and infrastructure management.
+      - Developed custom Helm addons for Kubernetes, enhancing container orchestration and deployment.
+      - Implemented and maintained an EKS and Route 53 DNS multi-region setup, including automatic DNS for both active-active and active-passive configurations, improving system reliability and user experience across regions.
+      - Optimized the CI/CD pipeline by implementing containerization (Docker) with multistage builds, leading to a 30% reduction in build time and a 40% decrease in image size, significantly improving application scalability and deployment efficiency in production environments.
+      - Implemented and maintained a multi-region setup for Amazon S3, ensuring robust data storage and high availability across different geographical areas.
 
 
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Barry University
-        caption: 2010 - 2013
-        sub_title: B.S. Information Technology
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        # description: | # this will include new lines to allow paragraphs
-        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+- title: Education # Title for the section
+  layout: list # Type of content section (list/text)
+  content:
+  - layout: left
+    title: Barry University
+    caption: 2010 - 2013
+    sub_title: B.S. Information Technology
+    # quote: >
+    #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+    # description: | # this will include new lines to allow paragraphs
+    #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-        #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+    #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and cloud engineering some of my other interests and hobbies are:
-      - crossfit
-      - Gaming
-      - family time
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
+- title: A Little More About Me
+  layout: text
+  content: "Alongside my interests in networks and cloud engineering some of my other interests and hobbies are:\n- Crossfit\n- Gaming\n- family time\n- [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)\n        #magic___^_^___line\nLook at this cool image  \n![Trees](images/landscape-trees.jpg \"Trees\")\n        #magic___^_^___line\n" # this will include new lines to allow paragraphs
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
@@ -147,4 +132,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+- jekyll-seo-tag
