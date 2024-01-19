@@ -144,22 +144,22 @@ content:
     title: IB USA INC
     link: IB USA INC
     link_text: www.group-ib.com
-    sub_title: Software Consultant 
+    sub_title: Software Consultant
     caption: May 2019 - Jun 2021
     # quote: >
     #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
     description: | # this will include new lines to allow paragraphs
-            - Provided technical support to clients with software implementation issues.
-            - Identified areas of improvement in existing software systems.
-            - Recommended changes to improve system performance and reliability.
-            - Designed innovative approaches to solve challenging business problems through technology.
-            - Automate patches, software upgrades, and backups using PowerShell and group policy.
-            - Provide level I/II and III support for ship-to-shore communication servers and software.
-            - Build, administer and maintain environments in AWS (Amazon Web Services) and Microsoft Azure.
-            - Perform QA testing on applications to ensure that key features function in the web environment.
-            - Develop and integrate solutions in PowerShell Scripting to maximize efficiency in transport using FTP/SFTP.
-            - Integrate highly available/fault-tolerant cloud environments for customers using AWS/Azure best practices.
-            - SQL Server and Windows Server 2008/2012/2016 administrator Infrastructure analysis to diagnose connection issues between database servers and application servers using various.
+      - Provided technical support to clients with software implementation issues.
+      - Identified areas of improvement in existing software systems.
+      - Recommended changes to improve system performance and reliability.
+      - Designed innovative approaches to solve challenging business problems through technology.
+      - Automate patches, software upgrades, and backups using PowerShell and group policy.
+      - Provide level I/II and III support for ship-to-shore communication servers and software.
+      - Build, administer and maintain environments in AWS (Amazon Web Services) and Microsoft Azure.
+      - Perform QA testing on applications to ensure that key features function in the web environment.
+      - Develop and integrate solutions in PowerShell Scripting to maximize efficiency in transport using FTP/SFTP.
+      - Integrate highly available/fault-tolerant cloud environments for customers using AWS/Azure best practices.
+      - SQL Server and Windows Server 2008/2012/2016 administrator Infrastructure analysis to diagnose connection issues between database servers and application servers using various.
 
 - title: Education # Title for the section
   layout: list # Type of content section (list/text)
@@ -171,15 +171,14 @@ content:
 
 - title: A Little More About Me
   layout: text
-  content: | # this will include new lines to allow paragraphs
+  content: "" # this will include new lines to allow paragraphs
   Alongside my interests in networks and cloud engineering some of my other interests and hobbies are:
   - Crossfit
+  - Swimming
+  - Waterpolo
   - Gaming
-  - family time
-  - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-  
-  Look at this cool image  
-  ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  - Family time
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
