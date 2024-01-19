@@ -47,7 +47,8 @@ linkedin_username: seanfaria
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: "Hi, my name's Sean and I'm a Devops Engineer. Talented engineering professional with a passion for developing innovative solutions to complex engineering problems. \nSpecializes in design, development, and implementation of cutting-edge technology. Adept at analyzing and interpreting large amounts of data to create effective solutions. \nHighly motivated and organized with strong communication and problem-solving skills.\n#magic___^_^___line\nI am most skilled in: <mark>AWS CloudFormation</mark> <mark>New relic</mark> <mark>Docker</mark> <mark>AWS EKS</mark> <mark>AWS EC2</mark> <mark>Devcontainers</mark> \n<mark>Argo-cd</mark> <mark>Terraform</mark> <mark>Terragrunt</mark> <mark>Ruby</mark> <mark>Python</mark> <mark>Google Workspace</mark> <mark>Kubernetes</mark> <mark>Gitops</mark> \n<mark>Lambda</mark> <mark>Github Actions</mark> <mark>Circleci</mark> <mark>AWS Systems Manager</mark> <mark>AWS RDS</mark>\n#magic___^_^___line\n#magic___^_^___line\n#magic___^_^___line\n" # this will include new lines to allow paragraphs
+about_content: "Hi, my name's Sean and I'm a Devops Engineer. Talented engineering professional with a passion for developing innovative solutions to complex engineering problems. Specializes in design, development, and implementation of cutting-edge technology. Adept at analyzing and interpreting large amounts of data to create effective solutions. Highly motivated and organized with strong communication and problem-solving skills."
+I am most skilled in: <mark>AWS CloudFormation</mark> <mark>New relic</mark> <mark>Docker</mark> <mark>AWS EKS</mark> <mark>AWS EC2</mark> <mark>Devcontainers</mark> <mark>Argo-cd</mark> <mark>Terraform</mark> <mark>Terragrunt</mark> <mark>Ruby</mark> <mark>Python</mark> <mark>Google Workspace</mark> <mark>Kubernetes</mark> <mark>Gitops</mark> <mark>Lambda</mark> <mark>Github Actions</mark> <mark>Circleci</mark> <mark>AWS Systems Manager</mark> <mark>AWS RDS</mark> <mark>AWS S3</mark> <mark>AWS Route 53</mark> <mark>AWS IAM</mark> <mark>AWS Cloudwatch</mark> <mark>AWS Cloudfront</mark> <mark>AWS WAF</mark> <mark>AWS VPC</mark> <mark>AWS VPN</mark> <mark>AWS SSM</mark> <mark>AWS SNS</mark> <mark>AWS SQS</mark> <mark>AWS SES</mark> <mark>AWS ECR</mark> <mark>AWS ECS</mark> <mark>AWS EBS</mark> <mark>AWS EFS</mark> <mark>AWS ECR</mar
 content:
 # - title: Projects # Title for the section
 #   layout: list # Type of content section (list/text)
@@ -101,7 +102,64 @@ content:
       - Optimized the CI/CD pipeline by implementing containerization (Docker) with multistage builds, leading to a 30% reduction in build time and a 40% decrease in image size, significantly improving application scalability and deployment efficiency in production environments.
       - Implemented and maintained a multi-region setup for Amazon S3, ensuring robust data storage and high availability across different geographical areas.
 
+  - layout: left
+    title: Parkstreet Imports
+    link: parkstreetimports.com
+    link_text: parkstreetimports.com
+    sub_title: AWS Cloud Engineer
+    caption: Jun 2021 - May 2022
+    # quote: >
+    #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+    description: | # this will include new lines to allow paragraphs
+      - Established secure access control mechanisms within the AWS platform with IAM roles and policies.
+      - Implemented automated backup policies for Amazon EBS volumes with snapshots and AMIs.
+      - Modify and enhance current CI/CD pipeline to support the different deployment flavors Ensuring efficient functioning of data storage and processing functions in accordance with cloud security best practices.
+      - Identifying, analyzing, and resolving infrastructure vulnerabilities and application deployment issues.
+      - Interacting with clients, providing cloud support, and making recommendations based on client Developed cloud-based solutions utilizing AWS services, including EC2, S3, RDS, VPC, and IAM. Set up CI and CD pipelines using CodePipeline and CodeBuild for faster deployment of applications into production.
+      - Performed system monitoring using CloudWatch alarms to detect anomalies in application behavior or resource usage.
+      - Created custom VPCs with public and private subnets, NAT gateways, internet gateways, route tables.
 
+  - layout: left
+    title: Parkstreet Imports
+    link: parkstreetimports.com
+    link_text: parkstreetimports.com
+    sub_title: AWS Cloud Administrator
+    caption: May 2019 - Jun 2021
+    # quote: >
+    #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+    description: | # this will include new lines to allow paragraphs
+      - Built custom AMIs from scratch for deploying applications on EC2 instances.
+      - Optimized cost of AWS services by scaling up and down resources as per requirement.
+      - Collaborated with cross-functional teams across different geographical locations while developing solutions in the cloud environment.
+      - Prepared detailed documentation about architecture design, deployment process and best practices followed while working with AWS platform.
+      - Developed scripts using Python boto3 library for automating various tasks in the AWS platform.
+      - Performed regular patching activities for all cloud based systems.
+      - Developed automation scripts to deploy and manage cloud resources such as EC2 instances, S3 buckets, RDS databases, ELBs.
+      - SSO integration with AWS, G Suite, Netsuite and legacy applications using cloud adoption strategies.
+      - Cloud adoption for legacy applications using AWS services (i.e. Quickbooks desktop enterprise, Fishbowl client).
+      - Netsuite, and Google Workspace administrator.
+      - Designed security roles for users based on their job responsibilities within the organization.
+
+  - layout: left
+    title: IB USA INC
+    link: IB USA INC
+    link_text: www.group-ib.com
+    sub_title: Software Consultant 
+    caption: May 2019 - Jun 2021
+    # quote: >
+    #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+    description: | # this will include new lines to allow paragraphs
+            - Provided technical support to clients with software implementation issues.
+            - Identified areas of improvement in existing software systems.
+            - Recommended changes to improve system performance and reliability.
+            - Designed innovative approaches to solve challenging business problems through technology.
+            - Automate patches, software upgrades, and backups using PowerShell and group policy.
+            - Provide level I/II and III support for ship-to-shore communication servers and software.
+            - Build, administer and maintain environments in AWS (Amazon Web Services) and Microsoft Azure.
+            - Perform QA testing on applications to ensure that key features function in the web environment.
+            - Develop and integrate solutions in PowerShell Scripting to maximize efficiency in transport using FTP/SFTP.
+            - Integrate highly available/fault-tolerant cloud environments for customers using AWS/Azure best practices.
+            - SQL Server and Windows Server 2008/2012/2016 administrator Infrastructure analysis to diagnose connection issues between database servers and application servers using various.
 
 - title: Education # Title for the section
   layout: list # Type of content section (list/text)
@@ -110,16 +168,14 @@ content:
     title: Barry University
     caption: 2010 - 2013
     sub_title: B.S. Information Technology
-    # quote: >
-    #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-    # description: | # this will include new lines to allow paragraphs
-    #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-    #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
 - title: A Little More About Me
   layout: text
-  content: "Alongside my interests in networks and cloud engineering some of my other interests and hobbies are:\n- Crossfit\n- Gaming\n- family time\n- [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)\n        #magic___^_^___line\nLook at this cool image  \n![Trees](images/landscape-trees.jpg \"Trees\")\n        #magic___^_^___line\n" # this will include new lines to allow paragraphs
+  content: "Alongside my interests in networks and cloud engineering some of my other interests and hobbies are:
+  - Crossfit
+  - Gaming
+  - family time
+  - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
