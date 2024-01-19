@@ -147,7 +147,7 @@ content:
   - layout: left
     title: IB USA INC
     link: IB USA INC
-    link_text: www.group-ib.com
+    link_text: marine.arribatec.com
     sub_title: Software Consultant
     caption: May 2019 - Jun 2021
     # quote: >
@@ -175,7 +175,7 @@ content:
 
 - title: A Little More About Me
   layout: text
-  content: "" # this will include new lines to allow paragraphs
+  content: | # this will include new lines to allow paragraphs
   Alongside my interests in networks and cloud engineering some of my other interests and hobbies are:
   - Crossfit
   - Swimming
