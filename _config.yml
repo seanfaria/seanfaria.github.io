@@ -47,11 +47,7 @@ linkedin_username: seanfaria
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Sean and I'm a Devops Engineer. Talented engineering professional with a passion for developing innovative solutions to complex engineering problems. Specializes in design, development, and implementation of cutting-edge technology. Adept at analyzing and interpreting large amounts of data to create effective solutions. Highly motivated and organized with strong communication and problem-solving skills.
-    
-  I am most skilled in: <mark>AWS CloudFormation</mark> <mark>New relic</mark> <mark>Docker</mark> <mark>AWS EKS</mark> <mark>AWS EC2</mark> <mark>Devcontainers</mark> <mark>Argo-cd</mark> <mark>Terraform</mark> <mark>Terragrunt</mark> <mark>Ruby</mark> <mark>Python</mark> <mark>Google Workspace</mark> <mark>Kubernetes</mark> <mark>Gitops</mark> <mark>Lambda</mark> <mark>Github Actions</mark> <mark>Circleci</mark> 
-  <mark>AWS Systems Manager</mark> <mark>AWS RDS</mark> <mark>AWS S3</mark> <mark>AWS Route 53</mark> <mark>AWS IAM</mark> <mark>AWS Cloudwatch</mark> <mark>AWS Cloudfront</mark> <mark>AWS WAF</mark> <mark>AWS VPC</mark> <mark>AWS VPN</mark> <mark>AWS SSM</mark> <mark>AWS SNS</mark> <mark>AWS SQS</mark> <mark>AWS SES</mark> <mark>AWS ECR</mark> <mark>AWS ECS</mark> <mark>AWS EBS</mark> <mark>AWS EFS</mark> <mark>AWS ECR</mark>
+about_content: "Hi, my name's Sean and I'm a Devops Engineer. Talented engineering professional with a passion for developing innovative solutions to complex engineering problems. Specializes in design, development, and implementation of cutting-edge technology. Adept at analyzing and interpreting large amounts of data to create effective solutions. Highly motivated and organized with strong communication and problem-solving skills.\n  #magic___^_^___line\nI am most skilled in: <mark>AWS CloudFormation</mark> <mark>New relic</mark> <mark>Docker</mark> <mark>AWS EKS</mark> <mark>AWS EC2</mark> <mark>Devcontainers</mark> <mark>Argo-cd</mark> <mark>Terraform</mark> <mark>Terragrunt</mark> <mark>Ruby</mark> <mark>Python</mark> <mark>Google Workspace</mark> <mark>Kubernetes</mark> <mark>Gitops</mark> <mark>Lambda</mark> <mark>Github Actions</mark> <mark>Circleci</mark> \n<mark>AWS Systems Manager</mark> <mark>AWS RDS</mark> <mark>AWS S3</mark> <mark>AWS Route 53</mark> <mark>AWS IAM</mark> <mark>AWS Cloudwatch</mark> <mark>AWS Cloudfront</mark> <mark>AWS WAF</mark> <mark>AWS VPC</mark> <mark>AWS VPN</mark> <mark>AWS SSM</mark> <mark>AWS SNS</mark> <mark>AWS SQS</mark> <mark>AWS SES</mark> <mark>AWS ECR</mark> <mark>AWS ECS</mark> <mark>AWS EBS</mark> <mark>AWS EFS</mark> <mark>AWS ECR</mark>\n" # this will include new lines to allow paragraphs
 content:
 # - title: Projects # Title for the section
 #   layout: list # Type of content section (list/text)
@@ -76,11 +72,25 @@ content:
   layout: list # Type of content section (list/text)
   content:
   - layout: left
+    title: Convey Health Solutions
+    link: conveyhealthsolutions.com
+    link_text: conveyhealthsolutions.com
+    sub_title: Devops Engineer II
+    caption: March 2024 - present
+    quote: >
+      Innovation is the outcome of a habit, not a random act.
+    description: | # this will include new lines to allow paragraphs
+      - TBA
+
+
+
+
+  - layout: left
     title: Customink LLC
     link: customink.com
     link_text: customink.com
     sub_title: Webops Engineer / Devops Engineer
-    caption: May 2022 - Present
+    caption: May 2022 - Jan 2024
     quote: >
       Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
     description: | # this will include new lines to allow paragraphs
