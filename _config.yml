@@ -53,9 +53,8 @@ content:
   layout: list # Type of content section (list/text)
   content:
     - layout: top-middle
-      title: Certifications
       link: https://www.credly.com/badges/c82a990d-8ce8-417b-a3db-bea548fa8059/public_url
-      image: images/aws-sysops.png
+      icon: images/aws-sysops.png
       link_text: AWS Certified SysOps Administrator - Associate
 
 # - title: Projects # Title for the section
